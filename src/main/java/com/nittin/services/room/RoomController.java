@@ -16,6 +16,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping(value="/rooms")
 @Api(value="rooms",description="data service operations",tags=("rooms"))
 public class RoomController {
+	
 	@Autowired
 	private RoomRepository roomRepository;
 	
